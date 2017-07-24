@@ -11,10 +11,8 @@ Vagrant.configure("2") do |config|
         "--cpuexecutioncap", "50",
         "--memory", "256",
       ]
-<<<<<<< Updated upstream
-=======
     docker001.vm.provision :shell, :path => "bootstrap.sh"
->>>>>>> Stashed changes
+
     end
   end
 
